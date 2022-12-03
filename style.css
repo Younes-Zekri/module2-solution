@@ -1,0 +1,46 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+}
+section{
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 2rem;
+  background-color: rgba(128, 128, 128, 0.452);
+}
+h2{
+  border: 2px solid black;
+  padding: 0 2rem;
+  float: right;
+  margin-top: -0.15rem;
+  margin-right: -0.1rem;
+}
+p{
+  padding: 1rem .5rem 0 .5rem;
+}
+.ch{
+  background-color: pink;
+}
+.be{
+  background-color: rgb(240, 65, 65);
+}
+.su{
+  background-color: yellow;
+}
+@media screen and (min-width: 768px) {
+  .container{
+    display: grid; 
+    grid-template-columns: 2fr 2fr;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container{
+    width: 100%;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+}
